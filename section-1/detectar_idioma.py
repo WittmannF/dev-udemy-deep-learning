@@ -14,7 +14,7 @@ class Modelo:
     def treinar(self, entrada, saida):
         print("Treinando...")
         
-        X_train = entrada
+        X_train = entrada#
         y_train = saida
 
         def clean_text(text):
