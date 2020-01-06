@@ -14,8 +14,8 @@ class Modelo:
     def treinar(self, entrada, saida):
         print("Treinando...")
         
-        X_train = dados_treinamento['Texto']
-        y_train = dados_treinamento['Idioma']
+        X_train = entrada
+        y_train = saida
 
         def clean_text(text):
             text = re.sub("\n", '', text.lower()) # Remove the \n tag
